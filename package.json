@@ -1,0 +1,10 @@
+{
+  "name": "@foxx/captcha-solver",
+  "version": "0.0.1",
+  "description": "reCaptcha captcha solver",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "https": "^1.0.0",
+  }
+}
