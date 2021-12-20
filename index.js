@@ -7,7 +7,7 @@ function rdn(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-async function solve(page) {
+async function solver(page) {
   try {
     await page.waitForFunction(() => {
       const iframe = document.querySelector('iframe[src*="api2/anchor"]');
@@ -116,4 +116,4 @@ async function solve(page) {
   }
 }
 
-module.exports = solve;
+module.exports = solver;
